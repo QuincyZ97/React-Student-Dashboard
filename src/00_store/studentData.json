@@ -1,0 +1,3362 @@
+[
+  {
+    "name": "Evelyn",
+    "exercise": "SCRUM",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D1-1",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D2-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D2-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D2-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D2-4",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D2-5",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D3-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D3-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D3-4",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D3-5",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 5,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D4-1",
+    "difficulty": 4,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D1-1",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D1-2",
+    "difficulty": 2,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D2-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D2-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D2-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D3-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D3-2",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D3-3",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D4-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D4-3",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D1-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D1-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D1-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D1-4",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D2-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D2-2",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D2-3",
+    "difficulty": 3,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D3-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D3-2",
+    "difficulty": 4,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D3-3",
+    "difficulty": 3,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D3-4",
+    "difficulty": 4,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D4-1",
+    "difficulty": 5,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D4-2",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 2,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D2-1",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D2-2",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D2-3",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D2-4",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D3-1",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D3-2",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D3-3",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D3-4",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D3-5",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 1,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W5D4-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W6D1-1",
+    "difficulty": 5,
+    "rating": 5
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W6D2-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Evelyn",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 5,
+    "rating": 5
+  },
+  {
+    "name": "Aranka",
+    "exercise": "SCRUM",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D1-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D2-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D2-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D2-3",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D2-4",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D2-5",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D3-1",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D3-2",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D3-4",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D3-5",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D4-1",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D1-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D1-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D2-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D2-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D2-3",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D3-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D3-2",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D3-3",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D4-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D4-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D4-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D1-1",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D1-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D1-3",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D1-4",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D2-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D2-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D2-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D3-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D3-2",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D3-3",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D3-4",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D4-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D4-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D2-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D2-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D2-3",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D2-4",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D3-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D3-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D3-3",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D3-4",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D3-5",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W5D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W6D1-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W6D2-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Aranka",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "SCRUM",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D1-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D2-1",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D2-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D2-3",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D2-4",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D2-5",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D3-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D3-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D3-4",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D3-5",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D1-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D1-2",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D2-1",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D2-2",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D2-3",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D3-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D3-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D3-3",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D4-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D4-2",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D4-3",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D1-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D1-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D1-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D1-4",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D2-1",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D2-2",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D2-3",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D3-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D3-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D3-3",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D3-4",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D4-2",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D2-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D2-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D2-3",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D2-4",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D3-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D3-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D3-3",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D3-4",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D3-5",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W5D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Floris",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W6D1-1",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Floris",
+    "exercise": "W6D2-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Floris",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "SCRUM",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D1-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D2-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D2-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D2-3",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D2-4",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D2-5",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D3-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D3-2",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D3-4",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D3-5",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D4-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D1-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D1-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D2-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D2-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D2-3",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D3-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D3-2",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D3-3",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D4-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D4-2",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D4-3",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D1-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D1-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D1-3",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D1-4",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D2-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D2-2",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D2-3",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D3-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D3-2",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D3-3",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D3-4",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D4-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D4-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D2-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D2-2",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D2-3",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D2-4",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D3-1",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D3-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D3-3",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D3-4",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D3-5",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W5D4-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Hector",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W6D1-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Hector",
+    "exercise": "W6D2-1",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Hector",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "SCRUM",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D1-1",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D2-1",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D2-2",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D2-3",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D2-4",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D2-5",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D3-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D3-2",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D3-4",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D3-5",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D4-1",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D1-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D1-2",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D2-1",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D2-2",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D2-3",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D3-1",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D3-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D3-3",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D4-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D4-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D4-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D1-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D1-2",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D1-3",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D1-4",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D2-1",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D2-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D2-3",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D3-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D3-2",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D3-3",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D3-4",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D4-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D4-2",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D2-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D2-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D2-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D2-4",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D3-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D3-2",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D3-3",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D3-4",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D3-5",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Martina",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W5D4-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W6D1-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Martina",
+    "exercise": "W6D2-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Martina",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "SCRUM",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D1-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D2-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D2-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D2-3",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D2-4",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D2-5",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D3-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D3-2",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D3-4",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D3-5",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D4-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D1-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D1-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D2-1",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D2-2",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D2-3",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D3-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D3-2",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D3-3",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D4-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D4-3",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D1-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D1-2",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D1-3",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D1-4",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D2-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D2-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D2-3",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D3-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D3-2",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D3-3",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D3-4",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D4-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D4-2",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D2-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D2-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D2-3",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D2-4",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D3-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D3-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D3-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D3-4",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D3-5",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W5D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W6D1-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W6D2-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Maurits",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "SCRUM",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D1-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D2-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D2-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D2-3",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D2-4",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D2-5",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D3-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D3-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D3-4",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D3-5",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D4-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D1-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D1-2",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D2-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D2-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D2-3",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D3-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D3-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D3-3",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D4-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D4-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D4-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D1-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D1-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D1-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D1-4",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D2-1",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D2-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D2-3",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D3-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D3-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D3-3",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D3-4",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D4-1",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D4-2",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D2-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D2-2",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D2-3",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D2-4",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D3-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D3-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D3-3",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D3-4",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D3-5",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W5D4-1",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W6D1-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W6D2-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Rahima",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "SCRUM",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D1-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D2-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D2-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D2-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D2-4",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D2-5",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D3-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D3-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D3-4",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D3-5",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D4-1",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D1-1",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D1-2",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D2-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D2-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D2-3",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D3-1",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D3-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D3-3",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D4-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D4-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D4-3",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D1-1",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D1-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D1-3",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D1-4",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D2-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D2-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D2-3",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D3-1",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D3-2",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D3-3",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D3-4",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D4-1",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D4-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D2-1",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D2-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D2-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D2-4",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D3-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D3-2",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D3-3",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D3-4",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D3-5",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W5D4-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W6D1-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W6D2-1",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Sandra",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "SCRUM",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D1-1",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D2-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D2-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D2-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D2-4",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D2-5",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D3-1",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D3-2",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D3-4",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D3-5",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D4-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D1-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D1-2",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D2-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D2-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D2-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D3-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D3-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D3-3",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D4-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D4-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D4-3",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D1-1",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D1-2",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D1-3",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D1-4",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D2-1",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D2-2",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D2-3",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D3-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D3-2",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D3-3",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D3-4",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D4-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D4-2",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D2-1",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D2-2",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D2-3",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D2-4",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D3-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D3-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D3-3",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D3-4",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D3-5",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W5D4-1",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W6D1-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W6D2-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Wietske",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "SCRUM",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D1-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D2-1",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D2-2",
+    "difficulty": 1,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D2-3",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D2-4",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D2-5",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D3-1",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D3-2",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D3-4",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D3-5",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D3 - Project - Guess-the-number",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D4-1",
+    "difficulty": 4,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D4 - Project - Kleurentoggle",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W1D5 - Project - Galgje",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D1-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D1-2",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D2-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D2-2",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D2-3",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D3-1",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D3-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D3-3",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D4-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D4-2",
+    "difficulty": 4,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D4-3",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W2D5 - Project - Filmzoeker",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D1-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D1-2",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D1-3",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D1-4",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D2-1",
+    "difficulty": 1,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D2-2",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D2-3",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D3-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D3-2",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D3-3",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D3-4",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D4-1",
+    "difficulty": 2,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D4-2",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W3D5 - Project - Todo-List",
+    "difficulty": 3,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D2-1",
+    "difficulty": 2,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D2-2",
+    "difficulty": 3,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D2-3",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D2-4",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D3-1",
+    "difficulty": 3,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D3-2",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D3-3",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D3-4",
+    "difficulty": 3,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D3-5",
+    "difficulty": 2,
+    "rating": 3
+  },
+  {
+    "name": "Storm",
+    "exercise": "W4D3 - Project - Next-Level CSS",
+    "difficulty": 4,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W5D4-1",
+    "difficulty": 2,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W5D5 - Project - Lil_Playlist",
+    "difficulty": 1,
+    "rating": 2
+  },
+  {
+    "name": "Storm",
+    "exercise": "W6D1-1",
+    "difficulty": 4,
+    "rating": 4
+  },
+  {
+    "name": "Storm",
+    "exercise": "W6D2-1",
+    "difficulty": 1,
+    "rating": 1
+  },
+  {
+    "name": "Storm",
+    "exercise": "W6D2 - Project - Eindopdracht",
+    "difficulty": 3,
+    "rating": 3
+  }
+]
