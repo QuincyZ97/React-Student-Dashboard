@@ -5,6 +5,7 @@ import App from "../src/03_components/App/App";
 import { Provider } from "react-redux";
 import store from "./00_store/store";
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
 
 ReactDOM.render(
   <Provider store={store}>
@@ -14,4 +15,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
-

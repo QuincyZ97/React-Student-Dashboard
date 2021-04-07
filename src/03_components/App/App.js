@@ -1,37 +1,40 @@
 import "./App.css";
-import React from "react";
+import React, { Component } from "react";
 import ChartContainer from "../Charts/ChartContainer";
 import LineContainer from "../Charts/LineContainer";
-import { useSelector } from "react-redux";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
 
-function App() {
-  const rawState = useSelector((state) => state.student);
-  console.log(rawState);
+const HomeScreen = () => (
+  <div>
+    <div className="homescreen">
+      <Link className="homescreen__left" to="/chart"></Link>
+      <Link className="homescreen__right" to="/line"></Link>
+    </div>
+    <span className="optionText__left">Chart</span>
+    <span className="optionText__right">Line</span>
+  </div>
+);
 
-  return (
-    <Router>
-      <div className="App">
-        <header className="App-header">
-          <nav>
-            <li>
-              <Link to="/">Bar Chart</Link>
-            </li>
-            <li>
-              <Link to="/line">Line Chart</Link>
-            </li>
-          </nav>
-        </header>
-
-        <div>
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
           <Switch>
-            <Route path="/" exact component={ChartContainer} />
-            <Route path="/line" component={LineContainer} />
+            <Route exact path="/" component={HomeScreen} />
+            <React.Fragment>
+              <Route exact path="/chart" component={ChartContainer}></Route>
+              <Route exact path="/line" component={LineContainer}></Route>
+            </React.Fragment>
           </Switch>
         </div>
-      </div>
-    </Router>
-  );
+      </Router>
+    );
+  }
 }
-
 export default App;

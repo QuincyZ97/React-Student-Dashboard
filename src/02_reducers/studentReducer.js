@@ -1,7 +1,7 @@
 import rawData from "../00_store/studentData.json";
 
 // const filterByName = rawData.filter((item) => item.name.includes("Evelyn")); // WORKS
-// const uniqueNames = [...new Set(rawData.map((item) => item.name))]; // WORKS
+
 
 // console.log(uniqueNames);
 // console.log(filterByName);

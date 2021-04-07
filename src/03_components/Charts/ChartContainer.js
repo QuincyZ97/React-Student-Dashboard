@@ -3,80 +3,143 @@ import store from "../../00_store/store";
 import {
   VictoryBar,
   VictoryChart,
+  VictoryTheme,
+  VictoryGroup,
   VictoryAxis,
-  VictoryStack,
-  VictoryLabel,
+  VictoryZoomContainer,
+  VictoryTooltip,
 } from "victory";
+import { NavLink } from "react-router-dom";
 
-//================MARK UP===========================
+//================HEADER==========================
 const currentState = store.getState();
 const getNames = [...new Set(currentState.student.map((item) => item.name))];
 
 const headerButtons = getNames.map((name, index) => (
-  <button key={index}>{name}</button>
+  <button className="dropdown-item" key={index}>
+    {name}
+  </button>
 ));
-
-//==========CHART DATA===============================================
-const dataA = [
-  { x: "Personal Drones", y: 57 },
-  { x: "Smart Thermostat", y: 40 },
-  { x: "Television", y: 38 },
-  { x: "Smartwatch", y: 37 },
-  { x: "Fitness Monitor", y: 25 },
-  { x: "Tablet", y: 19 },
-  { x: "Camera", y: 15 },
-  { x: "Laptop", y: 13 },
-  { x: "Phone", y: 12 },
-];
-
-const dataB = dataA.map((point) => {
-  const y = Math.round(point.y + 3 * (Math.random() - 0.5));
-  return { ...point, y };
+//TODO: DONT RENDER ON START > PLEASE SELECT A NAME ARROW POINT CONDITIONAL RENDER HTML
+//ACTIVE STUDENT BUTTON DISPLAY DROPDOWN + DISPLAY NAME ABOVE
+//==========AXIS DATA===============================================
+const getStudentData = currentState.student.filter((item) =>
+  item.name.includes("Aranka")
+); // get objects {DEFAULT SORT ORDER}
+const currentName = getStudentData[0].name;
+const getExercises = getStudentData.map((obj) => {
+  if (obj.exercise.length > 10) {
+    // shorten length of eindopdrachten
+    return [
+      obj.exercise.substring(0, 4) + "\n" + obj.exercise.substring(16),
+    ].join("");
+  } else return obj.exercise;
 });
 
-const width = 400;
-const height = 400;
+//------------CHART DATA----------------------
+const ratingData = getStudentData.map((obj, index) => {
+  const ratingObj = { x: index + 1, y: obj.rating, label: obj.rating };
+  return ratingObj;
+});
 
+const difficultyData = getStudentData.map((obj, index) => {
+  const ratingObj = { x: index + 1, y: obj.difficulty, label: obj.difficulty };
+  return ratingObj;
+});
+
+// console.log(ratingData);
+// console.log(difficultyData);
+
+const axisDataX = getExercises;
+const axisDataY = [1.0, 2.0, 3.0, 4.0, 5.0];
+
+//===============COMPONENT====================================================
 class ChartContainer extends React.Component {
   render() {
     return (
-      <div className="chartContainer">
-        <header>{headerButtons}</header>
-        <VictoryChart horizontal height={height} width={width} padding={40}>
-          <VictoryStack
-            style={{ data: { width: 25 }, labels: { fontSize: 15 } }}
-          >
-            <VictoryBar
-              style={{ data: { fill: "tomato" } }}
-              data={dataA}
-              y={(data) => -Math.abs(data.y)}
-              labels={({ datum }) => `${Math.abs(datum.y)}%`}
-            />
-            <VictoryBar
-              style={{ data: { fill: "orange" } }}
-              data={dataB}
-              labels={({ datum }) => `${Math.abs(datum.y)}%`}
-            />
-          </VictoryStack>
+      <div>
+        <header className="App-header navbar bg-dark ">
+          <div className="nav-item dropdown">
+            <button className="btn dropdown-toggle" data-toggle="dropdown">
+              Students
+            </button>
+            <div className="dropdown-menu">{headerButtons}</div>
+          </div>
 
-          <VictoryAxis
+          <nav className="nav nav-pills justify-content-center">
+            <NavLink
+              className="nav-link"
+              activeClassName="nav-link active"
+              to="/chart"
+            >
+              Bar Chart
+            </NavLink>
+            <NavLink
+              className="nav-link"
+              activeClassName="nav-link active"
+              to="/line"
+            >
+              Line Chart
+            </NavLink>
+          </nav>
+          <span className="navbar-text">
+            Made by <a href="https://github.com/QuincyZ97"> Quincy Zinnemers</a>
+          </span>
+        </header>
+
+        <div className="chartdisplay">
+          <VictoryChart
+            domain={{ x: [0, 56] }}
+            domainPadding={{ x: 20 }}
+            width={800}
+            padding={{ left: 40, top: 20, right: 20, bottom: 60 }}
             style={{
-              axis: { stroke: "transparent" },
-              ticks: { stroke: "transparent" },
-              tickLabels: { fontSize: 15, fill: "black" },
+              background: { fill: "lavender" },
             }}
-            /*
-            Use a custom tickLabelComponent with
-            an absolutely positioned x value to position
-            your tick labels in the center of the chart. The correct
-            y values are still provided by VictoryAxis for each tick
-          */
-            tickLabelComponent={
-              <VictoryLabel x={width / 2} textAnchor="middle" />
+            theme={VictoryTheme.material}
+            containerComponent={
+              <VictoryZoomContainer
+                zoomDomain={{ x: [0, 11] }}
+                zoomDimension="x"
+                allowZoom={false}
+              />
             }
-            tickValues={dataA.map((point) => point.x).reverse()}
-          />
-        </VictoryChart>
+          >
+            <VictoryAxis
+              standalone={true}
+              tickFormat={axisDataX}
+              label={`${currentName}'s exercises`}
+              style={{
+                tickLabels: { angle: 50, fontSize: 7, padding: 13 },
+                axisLabel: { padding: 43 },
+              }}
+            />
+
+            <VictoryAxis
+              tickFormat={axisDataY}
+              label="Rating"
+              style={{
+                axisLabel: { padding: 13 },
+              }}
+              dependentAxis
+            />
+
+            <VictoryGroup
+              offset={15}
+              style={{ data: { width: 15 } }}
+              colorScale={["tomato", "gold"]}
+            >
+              <VictoryBar
+                labelComponent={<VictoryTooltip />}
+                data={difficultyData}
+              />
+              <VictoryBar
+                labelComponent={<VictoryTooltip />}
+                data={ratingData}
+              />
+            </VictoryGroup>
+          </VictoryChart>
+        </div>
       </div>
     );
   }
