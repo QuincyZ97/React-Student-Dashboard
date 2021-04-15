@@ -2,23 +2,8 @@ import "./App.css";
 import React, { Component } from "react";
 import ChartContainer from "../Charts/ChartContainer";
 import LineContainer from "../Charts/LineContainer";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from "react-router-dom";
-
-const HomeScreen = () => (
-  <div>
-    <div className="homescreen">
-      <Link className="homescreen__left" to="/chart"></Link>
-      <Link className="homescreen__right" to="/line"></Link>
-    </div>
-    <span className="optionText__left">Chart</span>
-    <span className="optionText__right">Line</span>
-  </div>
-);
+import Homescreen from "../Homescreen/Homescreen";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -26,7 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Switch>
-            <Route exact path="/" component={HomeScreen} />
+            <Route exact path="/" component={Homescreen} />
             <React.Fragment>
               <Route exact path="/chart" component={ChartContainer}></Route>
               <Route exact path="/line" component={LineContainer}></Route>

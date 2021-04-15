@@ -1,148 +1,218 @@
 import React from "react";
-import store from "../../00_store/store";
 import {
   VictoryBar,
   VictoryChart,
-  VictoryTheme,
   VictoryGroup,
   VictoryAxis,
-  VictoryZoomContainer,
   VictoryTooltip,
+  VictoryLegend,
 } from "victory";
-import { NavLink } from "react-router-dom";
+import Copyright from "../Copyright/Copyright";
+import HeaderBar from "../HeaderBar/Header";
+import Chartoptions from "../ChartOptions/Chartoptions";
+import { useSelector } from "react-redux";
 
-//================HEADER==========================
-const currentState = store.getState();
-const getNames = [...new Set(currentState.student.map((item) => item.name))];
+function ChartContainer() {
+  const displayState = useSelector((state) => state.display);
+  const studentState = useSelector((state) => state.student);
+  const optionState = useSelector((state) => state.options);
+  //-----------AXIS DISPLAY-------------
+  const getAxisData = studentState.filter((item) =>
+    item.name.includes("Evelyn")
+  );
 
-const headerButtons = getNames.map((name, index) => (
-  <button className="dropdown-item" key={index}>
-    {name}
-  </button>
-));
-//TODO: DONT RENDER ON START > PLEASE SELECT A NAME ARROW POINT CONDITIONAL RENDER HTML
-//ACTIVE STUDENT BUTTON DISPLAY DROPDOWN + DISPLAY NAME ABOVE
-//==========AXIS DATA===============================================
-const getStudentData = currentState.student.filter((item) =>
-  item.name.includes("Aranka")
-); // get objects {DEFAULT SORT ORDER}
-const currentName = getStudentData[0].name;
-const getExercises = getStudentData.map((obj) => {
-  if (obj.exercise.length > 10) {
-    // shorten length of eindopdrachten
-    return [
-      obj.exercise.substring(0, 4) + "\n" + obj.exercise.substring(16),
-    ].join("");
-  } else return obj.exercise;
-});
+  const getExercises = getAxisData.map((obj) => {
+    if (obj.exercise.length > 10) {
+      // shorten length of Exercise names
+      return obj.exercise.slice(16, obj.exercise.length);
+    } else return obj.exercise;
+  });
 
-//------------CHART DATA----------------------
-const ratingData = getStudentData.map((obj, index) => {
-  const ratingObj = { x: index + 1, y: obj.rating, label: obj.rating };
-  return ratingObj;
-});
+  const getCheckedNames = displayState.filter((obj) => {
+    return obj.checked === true; //OBJECT {ARANKA ETC}
+  });
 
-const difficultyData = getStudentData.map((obj, index) => {
-  const ratingObj = { x: index + 1, y: obj.difficulty, label: obj.difficulty };
-  return ratingObj;
-});
+  //=============SINGLE DISPLAY================
+  const renderAxisData = () => {
+    if (getCheckedNames.length === 1) {
+      const getStudentData = studentState.filter((item) =>
+        item.name.includes(getCheckedNames[0].studentName)
+      );
 
-// console.log(ratingData);
-// console.log(difficultyData);
+      const getRating = getStudentData.map((obj, index) => {
+        const ratingObj = {
+          x: getExercises[index],
+          y: obj.rating,
+          label: obj.rating,
+        };
+        return ratingObj;
+      });
 
-const axisDataX = getExercises;
-const axisDataY = [1.0, 2.0, 3.0, 4.0, 5.0];
+      const getdifficulty = getStudentData.map((obj, index) => {
+        const ratingObj = {
+          x: getExercises[index],
+          y: obj.difficulty,
+          label: obj.difficulty,
+        };
+        return ratingObj;
+      });
+      return {
+        ratingData: getRating,
+        difficultyData: getdifficulty,
+      };
+    } else if (getCheckedNames.length >= 2) {
+      //=============MULTI DISPLAY (AVARAGE)================
+      const multiStudentData = getCheckedNames.map((obj) => {
+        return studentState.filter((item) =>
+          item.name.includes(obj.studentName)
+        );
+      });
 
-//===============COMPONENT====================================================
-class ChartContainer extends React.Component {
-  render() {
-    return (
-      <div>
-        <header className="App-header navbar bg-dark ">
-          <div className="nav-item dropdown">
-            <button className="btn dropdown-toggle" data-toggle="dropdown">
-              Students
-            </button>
-            <div className="dropdown-menu">{headerButtons}</div>
-          </div>
+      const getAllRatingData = (object) =>
+        object.map((obj, index) => {
+          const ratingObj = {
+            x: getExercises[index],
+            y: obj.rating,
+          };
+          return ratingObj;
+        });
 
-          <nav className="nav nav-pills justify-content-center">
-            <NavLink
-              className="nav-link"
-              activeClassName="nav-link active"
-              to="/chart"
-            >
-              Bar Chart
-            </NavLink>
-            <NavLink
-              className="nav-link"
-              activeClassName="nav-link active"
-              to="/line"
-            >
-              Line Chart
-            </NavLink>
-          </nav>
-          <span className="navbar-text">
-            Made by <a href="https://github.com/QuincyZ97"> Quincy Zinnemers</a>
-          </span>
-        </header>
+      const getAlldifficultyData = (object) =>
+        object.map((obj, index) => {
+          const ratingObj = {
+            x: getExercises[index],
+            y: obj.difficulty,
+          };
+          return ratingObj;
+        });
 
-        <div className="chartdisplay">
-          <VictoryChart
-            domain={{ x: [0, 56] }}
-            domainPadding={{ x: 20 }}
-            width={800}
-            padding={{ left: 40, top: 20, right: 20, bottom: 60 }}
-            style={{
-              background: { fill: "lavender" },
-            }}
-            theme={VictoryTheme.material}
-            containerComponent={
-              <VictoryZoomContainer
-                zoomDomain={{ x: [0, 11] }}
-                zoomDimension="x"
-                allowZoom={false}
-              />
-            }
-          >
-            <VictoryAxis
-              standalone={true}
-              tickFormat={axisDataX}
-              label={`${currentName}'s exercises`}
-              style={{
-                tickLabels: { angle: 50, fontSize: 7, padding: 13 },
-                axisLabel: { padding: 43 },
-              }}
-            />
+      const combinedRating = [];
+      const combinedDifficulty = [];
 
-            <VictoryAxis
-              tickFormat={axisDataY}
-              label="Rating"
-              style={{
-                axisLabel: { padding: 13 },
-              }}
-              dependentAxis
-            />
+      multiStudentData.forEach((ArrofObj) => {
+        // Seperate rating & difficulty
+        combinedRating.push(getAllRatingData(ArrofObj));
+        combinedDifficulty.push(getAlldifficultyData(ArrofObj));
+      });
 
-            <VictoryGroup
-              offset={15}
-              style={{ data: { width: 15 } }}
-              colorScale={["tomato", "gold"]}
-            >
-              <VictoryBar
-                labelComponent={<VictoryTooltip />}
-                data={difficultyData}
-              />
-              <VictoryBar
-                labelComponent={<VictoryTooltip />}
-                data={ratingData}
-              />
+      //================ GET AVERAGE ===================
+      //NOTE: all arrays being Must be the same order and have the same number of elements
+      const [firstRateArr, ...otherRateArrs] = combinedRating;
+      // Make template from firstRateArr
+      const averageRating = firstRateArr.map(({ x, y }, i) => {
+        let total = y; //y = default value from firstRateArr
+        otherRateArrs.forEach((arr) => (total += arr[i].y)); //add to total
+        return {
+          x,
+          y: total / combinedRating.length,
+          label: `Average: ${(total / combinedRating.length).toFixed(2)}`,
+        };
+      });
+
+      //---------------------------------------------------
+      const [firstDiffArr, ...otherDiffArrs] = combinedDifficulty;
+      const averageDifficulty = firstDiffArr.map(({ x, y }, i) => {
+        let total = y;
+        otherDiffArrs.forEach((arr) => (total += arr[i].y));
+        return {
+          x,
+          y: total / combinedDifficulty.length,
+          label: `Average: ${(total / combinedDifficulty.length).toFixed(2)}`,
+        };
+      });
+
+      return {
+        ratingData: averageRating,
+        difficultyData: averageDifficulty,
+      };
+    } else {
+      //=============NOTHING SELECTED================
+      return {
+        ratingData: false,
+        difficultyData: false,
+      };
+    }
+  };
+  //===============COMPONENT====================================================
+  const { ratingData, difficultyData } = renderAxisData();
+
+  return (
+    <div className="chartContainer">
+      <HeaderBar />
+      <div className="chartdisplay">
+        {ratingData === false && difficultyData === false && (
+          <span className="NothingSelected">Please choose a student</span>
+        )}
+
+        <VictoryChart
+          height={190}
+          padding={{ top: 10, bottom: 35, left: 20, right: 20 }}
+          width={460}
+        >
+          {ratingData !== false && difficultyData !== false && (
+            <VictoryGroup offset={2} colorScale={["#334d5c", "#007bff"]}>
+              {optionState.difficultyOn && (
+                <VictoryBar
+                  labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
+                  data={difficultyData}
+                  cornerRadius={1}
+                />
+              )}
+              {optionState.ratingOn && (
+                <VictoryBar
+                  labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
+                  data={ratingData}
+                  cornerRadius={1}
+                />
+              )}
             </VictoryGroup>
-          </VictoryChart>
-        </div>
-      </div>
-    );
-  }
-}
+          )}
 
+          <VictoryAxis
+            style={{
+              tickLabels: {
+                angle: 75,
+                fontSize: 3,
+                textAnchor: "start",
+                padding: 1,
+              },
+              ticks: { stroke: "red", size: 2 },
+            }}
+          />
+          <VictoryAxis
+            label="Rating"
+            style={{
+              tickLabels: { fontSize: 5, padding: 1 },
+              axisLabel: { fontSize: 5, padding: 10 },
+              ticks: { stroke: "red", size: 2 },
+            }}
+            dependentAxis
+            tickFormat={[0, 1.0, 2.0, 3.0, 4.0, 5.0]}
+          />
+          {optionState.difficultyOn && optionState.ratingOn && (
+            <VictoryLegend
+              padding={80}
+              x={180}
+              y={180}
+              orientation="horizontal"
+              gutter={15}
+              colorScale={["#334d5c", "#007bff"]}
+              data={[
+                { name: "Difficulty", labels: { fontSize: 7 } },
+                { name: "Rating", labels: { fontSize: 7 } },
+              ]}
+            />
+          )}
+        </VictoryChart>
+      </div>
+      <Chartoptions />
+      <Copyright />
+    </div>
+  );
+}
 export default ChartContainer;
+
+//TO DO: SORT + ADD ROUTE ON NAME ( &OPTION ) + CONDITIONAL RENDER OPTIMIZED
+// BONUS: Profile template for students + Tabel overzicht
+
+//LINE CHART DISPLAY: ALL USERS CHECK AVERAGE + PER OPDRACHT X AXIS NAMEN

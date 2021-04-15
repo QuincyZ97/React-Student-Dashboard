@@ -1,0 +1,59 @@
+.homescreen {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background-color: #646363;
+}
+
+.optionText__left {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: black;
+  font-size: 5em;
+}
+
+.optionText__right {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  color: black;
+  font-size: 5em;
+}
+
+.homescreen__left {
+  width: 50%;
+  background-image: url(./images/opt1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  opacity: 0.8;
+  filter: blur(3px);
+  transition: 0.3s ease-in-out;
+}
+
+.homescreen__right {
+  width: 50%;
+  background-image: url(./images/opt2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100% 100%;
+  display: flex;
+  opacity: 0.8;
+  filter: blur(3px);
+  transition: 0.3s ease-in-out;
+}
+
+.homescreen__left:hover {
+  opacity: 1;
+  background-size: 103% 103%;
+  filter: blur(0px);
+  transition: 0.3s ease-in-out;
+}
+
+.homescreen__right:hover {
+  opacity: 1;
+  filter: blur(0px);
+  background-size: 103% 103%;
+  transition: 0.3s ease-in-out;
+}
