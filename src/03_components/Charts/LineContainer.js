@@ -9,7 +9,6 @@ import {
   VictoryVoronoiContainer,
 } from "victory";
 import Copyright from "../Copyright/Copyright";
-import SettingsModal from "../SettingsModal/SettingsModal";
 import { useSelector } from "react-redux";
 
 function LineContainer() {
@@ -142,12 +141,18 @@ function LineContainer() {
   //===============COMPONENT====================================================
   const { ratingData, difficultyData } = renderAxisData();
   return (
-    <div className="chartContainer">
+    <div className="mainContainer">
       <div className="chartdisplay">
+        {ratingData === false && difficultyData === false && (
+          <div className="NothingSelected">
+            <i class="fas fa-arrow-up"></i>
+            <span>Please choose a student</span>
+          </div>
+        )}
+
         <VictoryChart
-          height={190}
+          height={205}
           padding={{ top: 10, bottom: 35, left: 20, right: 20 }}
-          width={460}
           containerComponent={<VictoryVoronoiContainer />}
         >
           <VictoryGroup
@@ -197,20 +202,18 @@ function LineContainer() {
             tickFormat={[0, 1.0, 2.0, 3.0, 4.0, 5.0]}
           />
           <VictoryLegend
-            padding={80}
-            x={180}
-            y={180}
+            x={190}
+            y={193}
+            gutter={10}
             orientation="horizontal"
-            gutter={15}
             colorScale={["#007bff", "#334d5c"]}
             data={[
-              { name: "Difficulty", labels: { fontSize: 7 } },
-              { name: "Rating", labels: { fontSize: 7 } },
+              { name: "Difficulty", labels: { fontSize: 5 } },
+              { name: "Rating", labels: { fontSize: 5 } },
             ]}
           />
         </VictoryChart>
       </div>
-      <SettingsModal />
       <Copyright />
     </div>
   );

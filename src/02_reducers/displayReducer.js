@@ -2,19 +2,24 @@ import rawData from "../00_store/studentData.json";
 
 const getNames = [...new Set(rawData.map((item) => item.name))];
 
-const initDisplayState = getNames.map((name, index) =>
-  name === "Evelyn"
-    ? {
-        studentName: name,
-        id: index,
-        checked: true,
-      }
-    : {
-        studentName: name,
-        id: index,
-        checked: false,
-      }
-);
+// ============ NOTE: USE TO DEFAULT RENDER CHART AT START ===========
+// const initDisplayState = getNames.map((name, index) =>
+//   name === "Evelyn"
+//     ? {
+//         studentName: name,
+//         id: index,
+//         checked: true,
+//       }
+//     : {
+//         studentName: name,
+//         id: index,
+//         checked: false,
+//       }
+// );
+
+const initDisplayState = getNames.map((name, index) => {
+  return { studentName: name, id: index, checked: false };
+});
 
 const displayReducer = (state = initDisplayState, action) => {
   switch (action.type) {

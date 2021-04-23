@@ -14,7 +14,7 @@ class App extends Component {
           <HeaderNavBar />
           <Switch>
             <React.Fragment>
-              <Route exact path="/home" component={Homescreen} />
+              <Route exact path="/home" component={Homescreen}></Route>
               <Route exact path="/home/bar" component={BarContainer}></Route>
               <Route exact path="/home/line" component={LineContainer}></Route>
               <Route exact path="/users" component={LineContainer}></Route>
@@ -28,3 +28,7 @@ class App extends Component {
   }
 }
 export default App;
+
+//LINE CHART DISPLAY: ALL USERS CHECK AVERAGE + PER OPDRACHT X AXIS NAMEN
+//TO DO: ADD ROUTE ON NAME ( &OPTION )
+// BONUS: Profile template for students + Tabel overzicht

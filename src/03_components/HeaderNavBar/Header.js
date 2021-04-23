@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
+import SettingsModal from "../SettingsModal/SettingsModal";
 import "./Header.css";
 
 export default function HeaderBar() {
@@ -46,7 +47,11 @@ export default function HeaderBar() {
           </NavLink>
         </div>
 
-        <span class="navbar-text navbar-center">Student Dashboard</span>
+        {currentLocation.pathname.includes("/home/") ? (
+          <SettingsModal />
+        ) : (
+          <span class="navbar-text navbar-center">Student Dashboard</span>
+        )}
 
         {currentLocation.pathname.includes("/home/") && (
           <div className="chartSwitch">

@@ -8,7 +8,6 @@ import {
   VictoryLegend,
 } from "victory";
 import Copyright from "../Copyright/Copyright";
-import SettingsModal from "../SettingsModal/SettingsModal";
 import { useSelector } from "react-redux";
 
 function ChartContainer() {
@@ -142,16 +141,18 @@ function ChartContainer() {
   const { ratingData, difficultyData } = renderAxisData();
 
   return (
-    <div className="chartContainer">
+    <div className="mainContainer">
       <div className="chartdisplay">
         {ratingData === false && difficultyData === false && (
-          <span className="NothingSelected">Please choose a student</span>
+          <div className="NothingSelected">
+            <i class="fas fa-arrow-up"></i>
+            <span>Please choose a student</span>
+          </div>
         )}
 
         <VictoryChart
-          height={190}
+          height={205}
           padding={{ top: 10, bottom: 35, left: 20, right: 20 }}
-          width={460}
         >
           {ratingData !== false && difficultyData !== false && (
             <VictoryGroup offset={2}>
@@ -197,26 +198,20 @@ function ChartContainer() {
           />
 
           <VictoryLegend
-            padding={80}
-            x={180}
-            y={180}
+            x={190}
+            y={193}
+            gutter={10}
             orientation="horizontal"
-            gutter={15}
             colorScale={["#007bff", "#334d5c"]}
             data={[
-              { name: "Difficulty", labels: { fontSize: 7 } },
-              { name: "Rating", labels: { fontSize: 7 } },
+              { name: "Difficulty", labels: { fontSize: 5 } },
+              { name: "Rating", labels: { fontSize: 5 } },
             ]}
           />
         </VictoryChart>
       </div>
-      <SettingsModal />
       <Copyright />
     </div>
   );
 }
 export default ChartContainer;
-//LINE CHART DISPLAY: ALL USERS CHECK AVERAGE + PER OPDRACHT X AXIS NAMEN
-
-//TO DO: ADD ROUTE ON NAME ( &OPTION )
-// BONUS: Profile template for students + Tabel overzicht

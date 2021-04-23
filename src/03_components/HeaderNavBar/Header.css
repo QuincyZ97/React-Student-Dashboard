@@ -33,6 +33,6 @@
 
 .chartSwitch {
   position: absolute;
-  right: 0;
+  right: 1%;
   display: flex;
 }

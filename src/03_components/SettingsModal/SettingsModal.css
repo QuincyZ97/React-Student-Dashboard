@@ -12,13 +12,6 @@
   font-size: 1.4em;
 }
 
-.OptionBtn {
-  position: absolute;
-  display: inline;
-  top: 8%;
-  right: 0.5%;
-}
-
 /* INSIDE MODAL */
 .settings {
   width: 500px;
@@ -30,8 +23,12 @@
 
 .BackBtn {
   position: relative;
-  left: 85%;
-  bottom: 8%;
+  left: 28%;
+}
+
+.settingsTip {
+  font-size: 10px;
+  vertical-align: bottom;
 }
 
 .setting__container {
@@ -40,7 +37,7 @@
 }
 
 .settings__names {
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
 }
 

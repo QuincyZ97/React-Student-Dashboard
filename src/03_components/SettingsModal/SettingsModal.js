@@ -49,7 +49,7 @@ export default function SettingsModal() {
 
   return (
     <div>
-      <button className="btn btn-dark OptionBtn btn-lg" onClick={openModal}>
+      <button className="btn btn-secondary navbar-center" onClick={openModal}>
         Settings <i className="fas fa-sliders-h"></i>
       </button>
       <Modal
@@ -81,6 +81,9 @@ export default function SettingsModal() {
           </div>
         </div>
 
+        <span className="settingsTip">
+          Reminder: You can switch between charts in the top right corner!
+        </span>
         <button
           className="Modal__Close btn btn-secondary BackBtn"
           onClick={closeModal}

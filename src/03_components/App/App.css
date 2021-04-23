@@ -7,19 +7,30 @@ body {
   height: 100vh;
 }
 
-.chartContainer {
+.mainContainer {
+  height: 100%;
+  position: relative;
   background-color: #f1f1f1;
-}
-
-.chartdisplay {
-  height: 93vh;
-  width: 100%;
 }
 
 .NothingSelected {
   position: absolute;
-  font-size: 50px;
-  color: red;
-  top: 50%;
-  left: 50%;
+  top: 5%;
+  left: 27%;
+}
+
+.NothingSelected span{
+  font-weight: 600;
+  color: #343a40;
+  text-shadow: 3px 3px 4px white;
+  font-size: 5em;
+}
+
+.NothingSelected i {
+  position: relative;
+  font-size: 5em;
+  display: block;
+  text-align: center;
+  color: #007bff;
+  padding-bottom: 200px;
 }

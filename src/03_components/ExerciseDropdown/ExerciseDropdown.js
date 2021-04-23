@@ -22,5 +22,7 @@ export default function ExerciseDropdown() {
     );
   });
 
+  console.log(ExerciseLinkButtons);
+
   return <div className="dropDown_Menu">bar</div>;
 }
