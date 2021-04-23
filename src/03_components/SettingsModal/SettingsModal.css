@@ -1,0 +1,63 @@
+.checkbox-container span {
+  padding-right: 5px;
+  color: rgb(235, 213, 213);
+}
+/* SWITCH PACKAGE */
+.react-switch {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.switch-text {
+  font-size: 1.4em;
+}
+
+.OptionBtn {
+  position: absolute;
+  display: inline;
+  top: 8%;
+  right: 0.5%;
+}
+
+/* INSIDE MODAL */
+.settings {
+  width: 500px;
+}
+
+.Modal__Header {
+  color: #334d5c;
+}
+
+.BackBtn {
+  position: relative;
+  left: 85%;
+  bottom: 8%;
+}
+
+.setting__container {
+  height: auto;
+  padding-top: 20px;
+}
+
+.settings__names {
+   display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-item {
+  width: 180px;
+}
+
+.settings__sort {
+  height: 120px;
+}
+
+.settings__chart {
+  height: 120px;
+}
+
+.settings h2 {
+  color: #334d5c;
+  border-bottom: 2px #334d5c solid;
+  padding-bottom: 5px;
+}

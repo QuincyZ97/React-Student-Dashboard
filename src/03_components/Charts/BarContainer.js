@@ -8,8 +8,7 @@ import {
   VictoryLegend,
 } from "victory";
 import Copyright from "../Copyright/Copyright";
-import HeaderBar from "../HeaderBar/Header";
-import Chartoptions from "../ChartOptions/Chartoptions";
+import SettingsModal from "../SettingsModal/SettingsModal";
 import { useSelector } from "react-redux";
 
 function ChartContainer() {
@@ -17,20 +16,16 @@ function ChartContainer() {
   const studentState = useSelector((state) => state.student);
   const optionState = useSelector((state) => state.options);
   //-----------AXIS DISPLAY-------------
-  const getAxisData = studentState.filter((item) =>
-    item.name.includes("Evelyn")
-  );
-
-  const getExercises = getAxisData.map((obj) => {
-    if (obj.exercise.length > 10) {
-      // shorten length of Exercise names
-      return obj.exercise.slice(16, obj.exercise.length);
-    } else return obj.exercise;
-  });
-
   const getCheckedNames = displayState.filter((obj) => {
-    return obj.checked === true; //OBJECT {ARANKA ETC}
+    return obj.checked === true;
   });
+
+  const shortenName = (obj) => {
+    if (obj.length > 10) {
+      // shorten length of Exercise names
+      return obj.slice(16, obj.length);
+    } else return obj;
+  };
 
   //=============SINGLE DISPLAY================
   const renderAxisData = () => {
@@ -39,20 +34,20 @@ function ChartContainer() {
         item.name.includes(getCheckedNames[0].studentName)
       );
 
-      const getRating = getStudentData.map((obj, index) => {
+      const getRating = getStudentData.map((obj) => {
         const ratingObj = {
-          x: getExercises[index],
+          x: shortenName(obj.exercise),
           y: obj.rating,
-          label: obj.rating,
+          label: `${obj.name}: ${obj.rating}`,
         };
         return ratingObj;
       });
 
-      const getdifficulty = getStudentData.map((obj, index) => {
+      const getdifficulty = getStudentData.map((obj) => {
         const ratingObj = {
-          x: getExercises[index],
+          x: shortenName(obj.exercise),
           y: obj.difficulty,
-          label: obj.difficulty,
+          label: `${obj.name}: ${obj.difficulty}`,
         };
         return ratingObj;
       });
@@ -69,21 +64,23 @@ function ChartContainer() {
       });
 
       const getAllRatingData = (object) =>
-        object.map((obj, index) => {
+        object.map((obj) => {
           const ratingObj = {
-            x: getExercises[index],
+            x: shortenName(obj.exercise),
             y: obj.rating,
+            label: `${obj.name}: ${obj.rating} \n`,
           };
           return ratingObj;
         });
 
       const getAlldifficultyData = (object) =>
-        object.map((obj, index) => {
-          const ratingObj = {
-            x: getExercises[index],
+        object.map((obj) => {
+          const difficultyObj = {
+            x: shortenName(obj.exercise),
             y: obj.difficulty,
+            label: `${obj.name}: ${obj.difficulty} \n`,
           };
-          return ratingObj;
+          return difficultyObj;
         });
 
       const combinedRating = [];
@@ -99,25 +96,33 @@ function ChartContainer() {
       //NOTE: all arrays being Must be the same order and have the same number of elements
       const [firstRateArr, ...otherRateArrs] = combinedRating;
       // Make template from firstRateArr
-      const averageRating = firstRateArr.map(({ x, y }, i) => {
+      const averageRating = firstRateArr.map(({ x, y, label }, i) => {
         let total = y; //y = default value from firstRateArr
+        let combinedLabel = label;
         otherRateArrs.forEach((arr) => (total += arr[i].y)); //add to total
+        otherRateArrs.forEach((arr) => (combinedLabel += arr[i].label));
         return {
           x,
           y: total / combinedRating.length,
-          label: `Average: ${(total / combinedRating.length).toFixed(2)}`,
+          label: `${combinedLabel} Average: ${(
+            total / combinedRating.length
+          ).toFixed(2)}`,
         };
       });
 
-      //---------------------------------------------------
+      //---------------------Difficulty-------------------------
       const [firstDiffArr, ...otherDiffArrs] = combinedDifficulty;
-      const averageDifficulty = firstDiffArr.map(({ x, y }, i) => {
+      const averageDifficulty = firstDiffArr.map(({ x, y, label }, i) => {
         let total = y;
+        let combinedLabel = label;
         otherDiffArrs.forEach((arr) => (total += arr[i].y));
+        otherDiffArrs.forEach((arr) => (combinedLabel += arr[i].label));
         return {
           x,
           y: total / combinedDifficulty.length,
-          label: `Average: ${(total / combinedDifficulty.length).toFixed(2)}`,
+          label: `${combinedLabel} Average: ${(
+            total / combinedDifficulty.length
+          ).toFixed(2)}`,
         };
       });
 
@@ -138,7 +143,6 @@ function ChartContainer() {
 
   return (
     <div className="chartContainer">
-      <HeaderBar />
       <div className="chartdisplay">
         {ratingData === false && difficultyData === false && (
           <span className="NothingSelected">Please choose a student</span>
@@ -150,9 +154,10 @@ function ChartContainer() {
           width={460}
         >
           {ratingData !== false && difficultyData !== false && (
-            <VictoryGroup offset={2} colorScale={["#334d5c", "#007bff"]}>
+            <VictoryGroup offset={2}>
               {optionState.difficultyOn && (
                 <VictoryBar
+                  color="#007bff"
                   labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
                   data={difficultyData}
                   cornerRadius={1}
@@ -160,6 +165,7 @@ function ChartContainer() {
               )}
               {optionState.ratingOn && (
                 <VictoryBar
+                  color="#334d5c"
                   labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
                   data={ratingData}
                   cornerRadius={1}
@@ -189,30 +195,28 @@ function ChartContainer() {
             dependentAxis
             tickFormat={[0, 1.0, 2.0, 3.0, 4.0, 5.0]}
           />
-          {optionState.difficultyOn && optionState.ratingOn && (
-            <VictoryLegend
-              padding={80}
-              x={180}
-              y={180}
-              orientation="horizontal"
-              gutter={15}
-              colorScale={["#334d5c", "#007bff"]}
-              data={[
-                { name: "Difficulty", labels: { fontSize: 7 } },
-                { name: "Rating", labels: { fontSize: 7 } },
-              ]}
-            />
-          )}
+
+          <VictoryLegend
+            padding={80}
+            x={180}
+            y={180}
+            orientation="horizontal"
+            gutter={15}
+            colorScale={["#007bff", "#334d5c"]}
+            data={[
+              { name: "Difficulty", labels: { fontSize: 7 } },
+              { name: "Rating", labels: { fontSize: 7 } },
+            ]}
+          />
         </VictoryChart>
       </div>
-      <Chartoptions />
+      <SettingsModal />
       <Copyright />
     </div>
   );
 }
 export default ChartContainer;
-
-//TO DO: SORT + ADD ROUTE ON NAME ( &OPTION ) + CONDITIONAL RENDER OPTIMIZED
-// BONUS: Profile template for students + Tabel overzicht
-
 //LINE CHART DISPLAY: ALL USERS CHECK AVERAGE + PER OPDRACHT X AXIS NAMEN
+
+//TO DO: ADD ROUTE ON NAME ( &OPTION )
+// BONUS: Profile template for students + Tabel overzicht

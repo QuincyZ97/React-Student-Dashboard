@@ -18,6 +18,8 @@ const chartOptionsReducer = (state = initDisplayState, action) => {
         ...state,
         ratingOn: !state.ratingOn,
       };
+    case "RESET_DISPLAY":
+      return { ...initDisplayState };
   }
 };
 

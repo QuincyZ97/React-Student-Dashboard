@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  position: relative;
+}
+
+.mainNav {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1em;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #22323b;
+}
+
+.navbar-text {
+  color: white;
+}
+
+.nav-link i {
+  margin-right: 10px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.chartSwitch {
+  position: absolute;
+  right: 0;
+  display: flex;
+}

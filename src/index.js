@@ -7,6 +7,7 @@ import store from "./00_store/store";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "rc-switch/assets/index.css";
+import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 
 ReactDOM.render(
   <Provider store={store}>

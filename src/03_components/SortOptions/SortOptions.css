@@ -1,0 +1,14 @@
+.sort-options {
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-options label {
+  display: block;
+}
+
+.sort-options input + span {
+  margin-right: 15px;
+  padding-left: 5px;
+}

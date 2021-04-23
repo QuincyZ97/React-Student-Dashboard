@@ -15,7 +15,7 @@ export default function Chartoptions() {
           checked={optionState.difficultyOn}
           onChange={() => dispatch(switchDifficultyOption())}
         />
-        <span>Show Difficulty</span>
+        <span>Difficulty</span>
       </label>
       <label>
         <input
@@ -23,7 +23,7 @@ export default function Chartoptions() {
           checked={optionState.ratingOn}
           onChange={() => dispatch(switchRatingOption())}
         />
-        <span>Show Rating</span>
+        <span>Rating</span>
       </label>
     </span>
   );

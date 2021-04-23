@@ -1,23 +1,27 @@
 .homescreen {
   display: flex;
   position: relative;
-  height: 100vh;
+  height: 94vh;
   background-color: #646363;
 }
 
 .optionText__left {
+  font-weight: 600;
   position: absolute;
-  top: 40%;
-  left: 20%;
-  color: black;
+  top: 46%;
+  left: 12%;
+  color: #343a40;
+  text-shadow: 3px 3px 4px white;
   font-size: 5em;
 }
 
 .optionText__right {
+  font-weight: 600;
   position: absolute;
-  top: 40%;
-  right: 20%;
-  color: black;
+  top: 46%;
+  right: 12%;
+  color: #343a40;
+  text-shadow: 3px 3px 4px white;
   font-size: 5em;
 }
 

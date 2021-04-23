@@ -1,6 +1,7 @@
 import rawData from "../00_store/studentData.json";
 
 const getNames = [...new Set(rawData.map((item) => item.name))];
+
 const initDisplayState = getNames.map((name, index) =>
   name === "Evelyn"
     ? {
