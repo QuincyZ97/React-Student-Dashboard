@@ -43,12 +43,12 @@ function ChartContainer() {
       });
 
       const getdifficulty = getStudentData.map((obj) => {
-        const ratingObj = {
+        const difficultyObj = {
           x: shortenName(obj.exercise),
           y: obj.difficulty,
           label: `${obj.name}: ${obj.difficulty}`,
         };
-        return ratingObj;
+        return difficultyObj;
       });
       return {
         ratingData: getRating,
@@ -139,6 +139,16 @@ function ChartContainer() {
   };
   //===============COMPONENT====================================================
   const { ratingData, difficultyData } = renderAxisData();
+  const currentlySelected = () => {
+    if (getCheckedNames.length === 1) {
+      return `${getCheckedNames[0].studentName}'s score`;
+    } else if (getCheckedNames.length > 1) {
+      return "Average score";
+    } else {
+      return "";
+    }
+  };
+
 
   return (
     <div className="mainContainer">
@@ -187,7 +197,7 @@ function ChartContainer() {
             }}
           />
           <VictoryAxis
-            label="Rating"
+            label={currentlySelected}
             style={{
               tickLabels: { fontSize: 5, padding: 1 },
               axisLabel: { fontSize: 5, padding: 10 },

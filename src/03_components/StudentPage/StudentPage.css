@@ -1,0 +1,87 @@
+.StudentPage__wrapper {
+  display: flex;
+  height: 94vh;
+  width: 100%;
+}
+
+.student__wrapper{
+  width: 34%;
+}
+
+.table__wrapper{
+  width: 53% !important;
+}
+
+.student__container {
+  position: relative;
+  display: flexbox;
+  height: 600px;
+  width: 500px;
+  top: 15%;
+  left: 12%;
+  -webkit-box-shadow: 5px 5px 15px 3px #000000;
+  box-shadow: 5px 5px 15px 3px #000000;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.student__profile {
+  position: absolute;
+  background-color: #006ee4;
+  height: 200px;
+  width: 100%;
+}
+
+.student__image {
+  border-radius: 50%;
+  border: #343a40 5px solid;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 1;
+}
+
+.student__name {
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.student__about span {
+  display: block;
+}
+
+.student__about {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin-bottom: 15%;
+}
+
+.student__about--info {
+  color: #343a40;
+  text-align: right;
+  border-right: 2px solid #343a40;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 30px;
+  width: 35%;
+  padding-right: 15px;
+}
+
+.student__about--data {
+  color: #343a40;
+  text-align: left;
+  width: 65%;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 30px;
+  padding-left: 35px;
+}
+

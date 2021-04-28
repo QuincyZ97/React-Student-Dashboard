@@ -3,23 +3,19 @@
   padding: 0;
 }
 
+html,
 body {
-  height: 100vh;
-}
-
-.mainContainer {
   height: 100%;
-  position: relative;
-  background-color: #f1f1f1;
+  width: 100%;
 }
 
 .NothingSelected {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 27%;
 }
 
-.NothingSelected span{
+.NothingSelected span {
   font-weight: 600;
   color: #343a40;
   text-shadow: 3px 3px 4px white;

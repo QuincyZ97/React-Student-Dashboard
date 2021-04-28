@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import BarContainer from "../Charts/BarContainer";
 import LineContainer from "../Charts/LineContainer";
 import Homescreen from "../Homescreen/Homescreen";
+import ExercisePage from "../ExercisePage/ExercisePage";
+import StudentPage from "../StudentPage/StudentPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HeaderNavBar from "../HeaderNavBar/Header";
 
@@ -17,8 +19,8 @@ class App extends Component {
               <Route exact path="/home" component={Homescreen}></Route>
               <Route exact path="/home/bar" component={BarContainer}></Route>
               <Route exact path="/home/line" component={LineContainer}></Route>
-              <Route exact path="/users" component={LineContainer}></Route>
-              <Route exact path="/exercise" component={LineContainer}></Route>
+              <Route exact path="/students" component={StudentPage}></Route>
+              <Route exact path="/exercise" component={ExercisePage}></Route>
               <Route exact path="/overview" component={LineContainer}></Route>
             </React.Fragment>
           </Switch>
@@ -29,6 +31,5 @@ class App extends Component {
 }
 export default App;
 
-//LINE CHART DISPLAY: ALL USERS CHECK AVERAGE + PER OPDRACHT X AXIS NAMEN
 //TO DO: ADD ROUTE ON NAME ( &OPTION )
 // BONUS: Profile template for students + Tabel overzicht

@@ -17,9 +17,11 @@ const getNames = [...new Set(rawData.map((item) => item.name))];
 //       }
 // );
 
+
 const initDisplayState = getNames.map((name, index) => {
   return { studentName: name, id: index, checked: false };
 });
+
 
 const displayReducer = (state = initDisplayState, action) => {
   switch (action.type) {

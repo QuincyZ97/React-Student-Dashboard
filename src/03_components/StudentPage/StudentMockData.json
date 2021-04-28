@@ -1,0 +1,72 @@
+[
+  {
+    "last_name": "Islep",
+    "age": 41,
+    "phone_number": "7197804864",
+    "email": "jislep0@yelp.com",
+    "user_image": "https://randomuser.me/api/portraits/women/75.jpg"
+  },
+  {
+    "last_name": "Catterick",
+    "age": 55,
+    "phone_number": "2966814522",
+    "email": "scatterick1@indiegogo.com",
+    "user_image": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "last_name": "Joincey",
+    "age": 78,
+    "phone_number": "6026157629",
+    "email": "ajoincey2@spotify.com",
+    "user_image": "https://randomuser.me/api/portraits/men/55.jpg"
+  },
+  {
+    "last_name": "Ricardon",
+    "age": 58,
+    "phone_number": "6022320214",
+    "email": "aricardon3@zdnet.com",
+    "user_image": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "last_name": "Ropkins",
+    "age": 46,
+    "phone_number": "6725219856",
+    "email": "jropkins4@marriott.com",
+    "user_image": "https://randomuser.me/api/portraits/women/19.jpg"
+  },
+  {
+    "last_name": "Chance",
+    "age": 35,
+    "phone_number": "8286512993",
+    "email": "kchance5@kickstarter.com",
+    "user_image": "https://randomuser.me/api/portraits/men/51.jpg"
+  },
+  {
+    "last_name": "Landsman",
+    "age": 45,
+    "phone_number": "4173620232",
+    "email": "slandsman6@technorati.com",
+    "user_image": "https://randomuser.me/api/portraits/women/47.jpg"
+  },
+  {
+    "last_name": "Leguay",
+    "age": 39,
+    "phone_number": "4481635300",
+    "email": "gleguay7@g.co",
+    "user_image": "https://randomuser.me/api/portraits/women/39.jpg"
+  },
+  {
+    "last_name": "Battisson",
+    "age": 65,
+    "phone_number": "3701405065",
+    "email": "sbattisson8@home.pl",
+    "user_image": "https://randomuser.me/api/portraits/men/42.jpg"
+  },
+  {
+    "last_name": "O'Loughane",
+    "age": 29,
+    "phone_number": "9898644164",
+    "email": "moloughane9@nydailynews.com",
+    "user_image": "https://randomuser.me/api/portraits/men/8.jpg"
+  }
+]

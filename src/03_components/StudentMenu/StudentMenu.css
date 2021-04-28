@@ -1,0 +1,27 @@
+.select__menu--students {
+  height: 100%;
+  width: 13%;
+  overflow-y: auto;
+  direction: rtl;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.select__menu--students button {
+  padding: 10px 24px;
+  height: 10%;
+  border: 1px solid #074180;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.select__menu--students button:hover {
+  background-color: #007bff3f;
+}
+
+.active_btn {
+  background-color: #007bff81;
+}

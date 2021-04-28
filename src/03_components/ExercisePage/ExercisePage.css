@@ -1,0 +1,10 @@
+.ExcercisePage__wrapper {
+  display: flex;
+  height: 94vh;
+}
+
+.ExcercisePage__chartdisplay {
+  height: 100%;
+  width: 100%;
+}
+
