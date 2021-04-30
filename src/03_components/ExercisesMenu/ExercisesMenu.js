@@ -1,9 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import "./ExerciseMenu.css";
+import "./ExercisesMenu.css";
 
-export default function ExerciseMenu(props) {
-  const studentState = useSelector((state) => state.student);
+export default function ExercisesMenu(props) {
+  const studentState = useSelector((state) => state.studentData);
   const getUniqueExcerise = [
     ...new Set(
       studentState.map((item) => {

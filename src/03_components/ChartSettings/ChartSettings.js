@@ -1,11 +1,11 @@
 import React from "react";
 import Modal from "react-modal";
-import "./SettingsModal.css";
+import "./ChartSettings.css";
 import { useDispatch, useSelector } from "react-redux";
 import { switchCheckbox } from "../../01_actions";
 import Switch from "rc-switch";
-import Chartoptions from "../ChartOptions/Chartoptions";
-import SortOptions from "../SortOptions/SortOptions";
+import Chartoptions from "../ChartSettingsCheckbox/ChartSettingsCheckbox";
+import SortOptions from "../ChartSettingsRadio/ChartSettingsRadio";
 
 Modal.setAppElement("#root");
 
@@ -20,11 +20,11 @@ const customStyles = {
   },
 };
 
-export default function SettingsModal() {
-  const displayState = useSelector((state) => state.display);
+export default function ChartSettings() {
+  const filterState = useSelector((state) => state.chartFilter);
   const dispatch = useDispatch();
 
-  const headerCheckbox = displayState.map(({ studentName, checked, id }) => {
+  const headerCheckbox = filterState.map(({ studentName, checked, id }) => {
     return (
       <div className="checkbox-item">
         <Switch

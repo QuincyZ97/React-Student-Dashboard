@@ -1,11 +1,11 @@
 import React from "react";
-import "./Chartoptions.css";
+import "./ChartSettingsCheckbox.css";
 import { useDispatch, useSelector } from "react-redux";
 import { switchDifficultyOption, switchRatingOption } from "../../01_actions";
 
-export default function Chartoptions() {
+export default function ChartSettingsCheckbox() {
   const dispatch = useDispatch();
-  const optionState = useSelector((state) => state.options);
+  const optionState = useSelector((state) => state.chartOptions);
 
   return (
     <span className="chart-options">

@@ -1,21 +1,22 @@
 import React from "react";
 import {
-  VictoryBar,
   VictoryChart,
   VictoryGroup,
+  VictoryArea,
   VictoryAxis,
   VictoryTooltip,
   VictoryLegend,
+  VictoryVoronoiContainer,
 } from "victory";
 import Copyright from "../Copyright/Copyright";
 import { useSelector } from "react-redux";
 
-function ChartContainer() {
-  const displayState = useSelector((state) => state.display);
-  const studentState = useSelector((state) => state.student);
-  const optionState = useSelector((state) => state.options);
+function ChartLine() {
+  const filterState = useSelector((state) => state.chartFilter);
+  const studentState = useSelector((state) => state.studentData);
+  const optionState = useSelector((state) => state.chartOptions);
   //-----------AXIS DISPLAY-------------
-  const getCheckedNames = displayState.filter((obj) => {
+  const getCheckedNames = filterState.filter((obj) => {
     return obj.checked === true;
   });
 
@@ -149,7 +150,6 @@ function ChartContainer() {
     }
   };
 
-
   return (
     <div className="mainContainer">
       <div className="chartdisplay">
@@ -163,28 +163,33 @@ function ChartContainer() {
         <VictoryChart
           height={205}
           padding={{ top: 10, bottom: 35, left: 20, right: 20 }}
+          containerComponent={<VictoryVoronoiContainer />}
         >
-          {ratingData !== false && difficultyData !== false && (
-            <VictoryGroup offset={2}>
-              {optionState.difficultyOn && (
-                <VictoryBar
-                  color="#007bff"
-                  labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
-                  data={difficultyData}
-                  cornerRadius={1}
-                />
-              )}
-              {optionState.ratingOn && (
-                <VictoryBar
-                  color="#334d5c"
-                  labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
-                  data={ratingData}
-                  cornerRadius={1}
-                />
-              )}
-            </VictoryGroup>
-          )}
+          <VictoryGroup
+            style={{
+              data: { strokeWidth: 1, fillOpacity: 0.4 },
+            }}
+          >
+            {optionState.difficultyOn && (
+              <VictoryArea
+                style={{
+                  data: { fill: "#007bff", stroke: "#007bff" },
+                }}
+                labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
+                data={difficultyData}
+              />
+            )}
 
+            {optionState.ratingOn && (
+              <VictoryArea
+                style={{
+                  data: { fill: "#334d5c", stroke: "#334d5c" },
+                }}
+                labelComponent={<VictoryTooltip style={{ fontSize: 5 }} />}
+                data={ratingData}
+              />
+            )}
+          </VictoryGroup>
           <VictoryAxis
             style={{
               tickLabels: {
@@ -206,7 +211,6 @@ function ChartContainer() {
             dependentAxis
             tickFormat={[0, 1.0, 2.0, 3.0, 4.0, 5.0]}
           />
-
           <VictoryLegend
             x={190}
             y={193}
@@ -224,4 +228,5 @@ function ChartContainer() {
     </div>
   );
 }
-export default ChartContainer;
+
+export default ChartLine;

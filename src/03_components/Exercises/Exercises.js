@@ -9,14 +9,13 @@ import {
 } from "victory";
 import Copyright from "../Copyright/Copyright";
 import { useSelector } from "react-redux";
-import ExerciseMenu from "../ExerciseMenu/ExerciseMenu";
-import "./ExercisePage.css";
+import ExercisesMenu from "../ExercisesMenu/ExercisesMenu";
+import "./Exercises.css";
 
-function ExercisePage() {
-  const studentState = useSelector((state) => state.student);
+function Exercises() {
+  const studentState = useSelector((state) => state.studentData);
   const [selectedExcercise, setSelectedExcercise] = useState("SCRUM");
 
-  //=============SINGLE DISPLAY================
   const renderAxisData = () => {
     const getExerciseData = studentState.filter((item) =>
       item.exercise.includes(selectedExcercise)
@@ -46,12 +45,11 @@ function ExercisePage() {
     };
   };
 
-  //===============COMPONENT====================================================
   const { ratingData, difficultyData } = renderAxisData();
 
   return (
     <div className="ExcercisePage__wrapper">
-      <ExerciseMenu
+      <ExercisesMenu
         changeSelected={setSelectedExcercise}
         activeBtn={selectedExcercise}
       />
@@ -108,4 +106,4 @@ function ExercisePage() {
     </div>
   );
 }
-export default ExercisePage;
+export default Exercises;

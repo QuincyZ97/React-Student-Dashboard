@@ -1,12 +1,12 @@
 import { combineReducers } from "redux";
-import studentReducer from "./studentReducer";
-import displayReducer from "./displayReducer";
-import chartOptionsReducer from "./chartOptionsReducer"
+import studentDataReducer from "./studentDataReducer";
+import chartFilterReducer from "./chartFilterReducer";
+import chartOptionsReducer from "./chartOptionsReducer";
 
 const rootReducer = combineReducers({
-  student: studentReducer,
-  display: displayReducer,
-  options: chartOptionsReducer,
+  studentData: studentDataReducer,
+  chartFilter: chartFilterReducer,
+  chartOptions: chartOptionsReducer,
 });
 
 export default rootReducer;

@@ -23,7 +23,7 @@ const initDisplayState = getNames.map((name, index) => {
 });
 
 
-const displayReducer = (state = initDisplayState, action) => {
+const chartFilterReducer = (state = initDisplayState, action) => {
   switch (action.type) {
     default:
       return state;
@@ -40,4 +40,4 @@ const displayReducer = (state = initDisplayState, action) => {
   }
 };
 
-export default displayReducer;
+export default chartFilterReducer;

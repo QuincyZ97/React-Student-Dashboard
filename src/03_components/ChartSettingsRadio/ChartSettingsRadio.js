@@ -1,5 +1,5 @@
-import React from "react";
-import "./SortOptions.css";
+import React, { useState } from "react";
+import "./ChartSettingsRadio.css";
 import {
   sortOnExercise,
   sortOnRating,
@@ -10,21 +10,21 @@ import {
 } from "../../01_actions";
 import { useDispatch } from "react-redux";
 
-let currentlySorted = "exercise";
-export default function SortOptions() {
+export default function ChartSettingsRadio() {
+  const [currentRadio, setCurrentRadio] = useState(1);
+
   const dispatch = useDispatch();
   return (
     <div className="sort-options">
-
       <label>
         <input
           type="radio"
           name="sortOption"
-          checked={currentlySorted === "exercise"}
+          checked={currentRadio === 1}
           onChange={() => {
             dispatch(sortOnExercise());
             dispatch(resetDisplayOption());
-            currentlySorted = "exercise";
+            setCurrentRadio(1);
           }}
         />
         <span>Exercise</span>
@@ -34,12 +34,12 @@ export default function SortOptions() {
         <input
           type="radio"
           name="sortOption"
-          checked={currentlySorted === "difficulty"}
+          checked={currentRadio === 2}
           onChange={() => {
             dispatch(sortOnDifficutly());
             dispatch(resetDisplayOption());
             dispatch(switchRatingOption());
-            currentlySorted = "difficulty";
+            setCurrentRadio(2);
           }}
         />
         <span>Difficulty</span>
@@ -49,12 +49,12 @@ export default function SortOptions() {
         <input
           type="radio"
           name="sortOption"
-          checked={currentlySorted === "rating"}
+          checked={currentRadio === 3}
           onChange={() => {
             dispatch(sortOnRating());
             dispatch(resetDisplayOption());
             dispatch(switchDifficultyOption());
-            currentlySorted = "rating";
+            setCurrentRadio(3);
           }}
         />
         <span>Rating</span>

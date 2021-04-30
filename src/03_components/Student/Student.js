@@ -3,15 +3,15 @@ import { useSelector } from "react-redux";
 import Copyright from "../Copyright/Copyright";
 import StudentMenu from "../StudentMenu/StudentMenu";
 import studentData from "./StudentMockData.json";
-import "./StudentPage.css";
+import "./Student.css";
 
-function StudentPage() {
-  const displayState = useSelector((state) => state.display);
-  const studentState = useSelector((state) => state.student);
+function Student() {
+  const filterState = useSelector((state) => state.chartFilter);
+  const studentState = useSelector((state) => state.studentData);
   const [currentId, setcurrentId] = useState(0);
   const getMockData = studentData;
 
-  const generateFakeUsers = displayState.map(({ studentName, id }) => {
+  const generateFakeUsers = filterState.map(({ studentName, id }) => {
     return {
       id: id,
       first_name: studentName,
@@ -68,19 +68,30 @@ function StudentPage() {
 
           <div className="student__about">
             <div className="student__about--info">
-              <span>Phone</span>
-              <span>Age</span>
-              <span>Email</span>
-              <span>Average difficulty</span>
-              <span>Average Rating</span>
+              <span>
+                <i class="fas fa-phone"></i> Phone
+              </span>
+              <span>
+                <i class="fas fa-birthday-cake"></i> Age
+              </span>
+              <span>
+                <i class="fas fa-envelope"></i> Email
+              </span>
+              <span>
+                <i class="fas fa-thermometer-three-quarters"></i> Average
+                difficulty
+              </span>
+              <span>
+                <i class="fas fa-thumbs-up"></i> Average Rating
+              </span>
             </div>
 
             <div className="student__about--data">
               <span>{userData[currentId].phone_number}</span>
               <span>{userData[currentId].age}</span>
               <span>{userData[currentId].email}</span>
-              <span>{diffAverage.toFixed(2)} / 5</span>
-              <span>{rateAverage.toFixed(2)} / 5</span>
+              <span>{diffAverage.toFixed(1)} / 5</span>
+              <span>{rateAverage.toFixed(1)} / 5</span>
             </div>
           </div>
         </div>
@@ -103,4 +114,4 @@ function StudentPage() {
     </div>
   );
 }
-export default StudentPage;
+export default Student;

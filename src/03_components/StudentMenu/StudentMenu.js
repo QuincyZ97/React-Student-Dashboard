@@ -3,9 +3,9 @@ import { useSelector } from "react-redux";
 import "./StudentMenu.css";
 
 export default function StudentMenu(props) {
-  const displayState = useSelector((state) => state.display);
+  const filterState = useSelector((state) => state.chartFilter);
 
-  const StudentLinkButtons = displayState.map(({ studentName, id }) => {
+  const StudentLinkButtons = filterState.map(({ studentName, id }) => {
     if (props.activeBtn !== id) {
       return (
         <button onClick={() => props.changeSelected(id)} key={id}>

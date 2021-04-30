@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import SettingsModal from "../SettingsModal/SettingsModal";
+import SettingsModal from "../ChartSettings/ChartSettings";
 import "./Header.css";
 
 export default function HeaderBar() {
@@ -31,10 +31,10 @@ export default function HeaderBar() {
           <NavLink
             className="nav-link"
             activeClassName="nav-link active"
-            to="/exercise"
+            to="/Exercises"
           >
             <i className="fas fa-book"></i>
-            <span>Exercise</span>
+            <span>Exercises</span>
           </NavLink>
 
           <NavLink
@@ -47,18 +47,20 @@ export default function HeaderBar() {
           </NavLink>
         </div>
 
-        {currentLocation.pathname.includes("/home/") ? (
+        {currentLocation.pathname.includes("/chart/") ? (
           <SettingsModal />
         ) : (
-          <span class="navbar-text navbar-center">Student Dashboard</span>
+          <span class="navbar-text navbar-center">
+            Student Dashboard <i className="fas fa-user-graduate"></i>
+          </span>
         )}
 
-        {currentLocation.pathname.includes("/home/") && (
+        {currentLocation.pathname.includes("/chart/") && (
           <div className="chartSwitch">
             <NavLink
               className="nav-link"
               activeClassName="nav-link active"
-              to="/home/bar"
+              to="/chart/bar"
             >
               <i className="far fa-chart-bar"></i>
               Bar Chart
@@ -66,7 +68,7 @@ export default function HeaderBar() {
             <NavLink
               className="nav-link"
               activeClassName="nav-link active"
-              to="/home/line"
+              to="/chart/line"
             >
               <i className="fas fa-chart-area"></i>
               Line Chart
