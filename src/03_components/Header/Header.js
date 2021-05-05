@@ -13,7 +13,8 @@ export default function HeaderBar() {
           <NavLink
             className="nav-link"
             activeClassName="nav-link active"
-            to="/home"
+            exact
+            to="/chart/bar"
           >
             <i className="fa fa-fw fa-home" />
             <span>Home</span>
@@ -31,7 +32,7 @@ export default function HeaderBar() {
           <NavLink
             className="nav-link"
             activeClassName="nav-link active"
-            to="/Exercises"
+            to="/exercises"
           >
             <i className="fas fa-book"></i>
             <span>Exercises</span>

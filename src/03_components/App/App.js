@@ -17,14 +17,14 @@ class App extends Component {
         <div className="App">
           <Header />
           <Switch>
-            <React.Fragment>
-              <Route exact path="/home" component={SelectionScreen}></Route>
-              <Route exact path="/chart/bar" component={ChartBar}></Route>
-              <Route exact path="/chart/line" component={ChartLine}></Route>
-              <Route exact path="/students" component={Student}></Route>
-              <Route exact path="/Exercises" component={Exercises}></Route>
-              <Route exact path="/overview" component={Overview}></Route>
-            </React.Fragment>
+            <>
+              <Route exact path="/" component={SelectionScreen}></Route>
+              <Route path="/chart/bar" component={ChartBar}></Route>
+              <Route path="/chart/line" component={ChartLine}></Route>
+              <Route path="/students" component={Student}></Route>
+              <Route path="/exercises" component={Exercises}></Route>
+              <Route path="/overview" component={Overview}></Route>
+            </>
           </Switch>
           <Copyright />
         </div>
@@ -34,7 +34,5 @@ class App extends Component {
 }
 export default App;
 
-//TO DO: ADD ROUTE ON NAME ( &OPTION if checked?) + ICONS
-
-// CHANGE NAMES ClASSNAMES
-// RESPONSIVE UI + COLOR CHANGES + LOGO / ICONS / SCSS?
+//TO DO: ADD ROUTE ON NAME ( &OPTION if checked?)
+// CHANGE ClASSNAMES / RESPONSIVE UI / COLOR CHANGES / MAYBE SCSS?

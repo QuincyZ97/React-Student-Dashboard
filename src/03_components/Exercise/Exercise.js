@@ -44,7 +44,7 @@ function Exercise() {
       difficultyData: getdifficulty,
     };
   };
-  
+
   const { ratingData, difficultyData } = renderAxisData();
 
   return (
