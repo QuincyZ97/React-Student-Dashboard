@@ -4,6 +4,8 @@
 
 _Web app release: version 1.0.0_
 
+https://determined-kirch-2f609d.netlify.app
+
 A React based app that displays mock data using different graphics and tables.
 
 ---
