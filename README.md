@@ -4,6 +4,8 @@
 
 _Web app release: version 1.0.0_
 
+_Full widescreen compatibility (1920 x 1080)+_
+
 https://determined-kirch-2f609d.netlify.app
 
 A React based app that displays mock data using different graphics and tables.
@@ -82,6 +84,12 @@ Winc Academy: https://www.wincacademy.nl/#
 
 ---
 
+#### Fix
+
+Netlify custom react 404 page render
+
+---
+
 #### Upcoming
 
-Smartphone, tablet & small screen support _( css media queries )_
+Small screen, tablet & smartphone support/compatibility _( css media queries )_
