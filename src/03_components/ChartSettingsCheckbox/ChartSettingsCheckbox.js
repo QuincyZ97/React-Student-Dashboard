@@ -3,12 +3,12 @@ import "./ChartSettingsCheckbox.css";
 import { useDispatch, useSelector } from "react-redux";
 import { switchDifficultyOption, switchRatingOption } from "../../01_actions";
 
-export default function ChartSettingsCheckbox() {
+function ChartSettingsCheckbox() {
   const dispatch = useDispatch();
   const optionState = useSelector((state) => state.chartOptions);
 
   return (
-    <span className="chart-options">
+    <span className="settings__chart--options">
       <label>
         <input
           type="checkbox"
@@ -28,3 +28,5 @@ export default function ChartSettingsCheckbox() {
     </span>
   );
 }
+
+export default ChartSettingsCheckbox;

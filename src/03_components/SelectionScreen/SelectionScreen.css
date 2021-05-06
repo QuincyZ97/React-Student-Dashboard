@@ -1,11 +1,11 @@
-.homescreen {
+.selection {
   display: flex;
   position: relative;
   height: 94vh;
   background-color: #646363;
 }
 
-.optionText__left {
+.selection__left--text {
   font-weight: 600;
   position: absolute;
   top: 46%;
@@ -15,7 +15,7 @@
   font-size: 5em;
 }
 
-.optionText__right {
+.selection__right--text {
   font-weight: 600;
   position: absolute;
   top: 46%;
@@ -25,9 +25,9 @@
   font-size: 5em;
 }
 
-.homescreen__left {
+.selection__left {
   width: 50%;
-  background-image: url(./images/opt1.png);
+  background-image: url(./images/opt1.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -36,9 +36,9 @@
   transition: 0.3s ease-in-out;
 }
 
-.homescreen__right {
+.selection__right {
   width: 50%;
-  background-image: url(./images/opt2.png);
+  background-image: url(./images/opt2.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100% 100%;
@@ -48,14 +48,14 @@
   transition: 0.3s ease-in-out;
 }
 
-.homescreen__left:hover {
+.selection__left:hover {
   opacity: 1;
   background-size: 103% 103%;
   filter: blur(0px);
   transition: 0.3s ease-in-out;
 }
 
-.homescreen__right:hover {
+.selection__right:hover {
   opacity: 1;
   filter: blur(0px);
   background-size: 103% 103%;

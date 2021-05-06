@@ -1,7 +1,7 @@
 import React from "react";
 import "./Copyright.css";
 
-export default function Copyright() {
+function Copyright() {
   return (
     <span className="copyright">
       <a href="https://github.com/QuincyZ97">
@@ -11,3 +11,4 @@ export default function Copyright() {
     </span>
   );
 }
+export default Copyright;

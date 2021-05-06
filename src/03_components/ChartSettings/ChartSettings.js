@@ -20,7 +20,7 @@ const customStyles = {
   },
 };
 
-export default function ChartSettings() {
+function ChartSettings() {
   const filterState = useSelector((state) => state.chartFilter);
   const dispatch = useDispatch();
 
@@ -59,21 +59,22 @@ export default function ChartSettings() {
         contentLabel="Settings Modal"
       >
         <h1 className="Modal__Header">Chart settings</h1>
+        <span>You can switch between charts in the top right corner!</span>
 
         <div className="settings">
-          <div className="setting__container">
+          <div className="settings__container">
             <h2>Students</h2>
             <div className="settings__names">{headerCheckbox}</div>
           </div>
 
-          <div className="setting__container">
+          <div className="settings__container">
             <h2>Sort by</h2>
             <div className="settings__sort">
               <SortOptions />
             </div>
           </div>
 
-          <div className="setting__container">
+          <div className="settings__container">
             <h2>Display</h2>
             <div className="settings__chart">
               <Chartoptions />
@@ -81,11 +82,11 @@ export default function ChartSettings() {
           </div>
         </div>
 
-        <span className="settingsTip">
-          Reminder: You can switch between charts in the top right corner!
+        <span className="settings__tip">
+          Did you know you can hover over the chart for more info?
         </span>
         <button
-          className="Modal__Close btn btn-secondary BackBtn"
+          className="Modal__Close btn btn-secondary settings__back"
           onClick={closeModal}
         >
           Back <i className="fas fa-arrow-right"></i>
@@ -94,3 +95,4 @@ export default function ChartSettings() {
     </div>
   );
 }
+export default ChartSettings;

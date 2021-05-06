@@ -4,7 +4,7 @@ import "./ExercisesMenu.css";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
-export default function ExercisesMenu(props) {
+ function ExercisesMenu(props) {
   const studentState = useSelector((state) => state.studentData);
   const [initialUrl, setInitialUrl] = useState(0);
 
@@ -63,3 +63,5 @@ export default function ExercisesMenu(props) {
 
   return <div className="select__menu--exercise">{ExerciseLinkButtons}</div>;
 }
+
+export default ExercisesMenu;

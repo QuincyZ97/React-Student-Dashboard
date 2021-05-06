@@ -18,7 +18,7 @@ function Overview() {
   };
 
   return (
-    <div className="overview_container">
+    <div className="overview__container">
       <div className="input-group mb-3">
         <div className="input-group-prepend">
           <span className="input-group-text" id="inputGroup-sizing-default">

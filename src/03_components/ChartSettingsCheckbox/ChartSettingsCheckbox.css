@@ -2,11 +2,11 @@
   font-size: 1.4em;
 }
 
-.chart-options label {
+.settings__chart--options label {
   display: block;
 }
 
-.chart-options input + span{
+.settings__chart--options input + span{
   margin-right: 15px;
   padding-left: 5px;
 }

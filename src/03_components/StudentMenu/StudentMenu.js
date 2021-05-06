@@ -4,7 +4,7 @@ import "./StudentMenu.css";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
-export default function StudentMenu(props) {
+function StudentMenu(props) {
   const filterState = useSelector((state) => state.chartFilter);
   const [initialUrl, setInitialUrl] = useState(0);
 
@@ -51,3 +51,5 @@ export default function StudentMenu(props) {
 
   return <div className="select__menu--students">{StudentLinkButtons}</div>;
 }
+
+export default StudentMenu;

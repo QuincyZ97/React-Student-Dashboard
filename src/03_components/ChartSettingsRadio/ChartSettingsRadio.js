@@ -10,12 +10,12 @@ import {
 } from "../../01_actions";
 import { useDispatch } from "react-redux";
 
-export default function ChartSettingsRadio() {
+function ChartSettingsRadio() {
   const [currentRadio, setCurrentRadio] = useState(1);
 
   const dispatch = useDispatch();
   return (
-    <div className="sort-options">
+    <div className="settings__sort--options">
       <label>
         <input
           type="radio"
@@ -62,3 +62,4 @@ export default function ChartSettingsRadio() {
     </div>
   );
 }
+export default ChartSettingsRadio;

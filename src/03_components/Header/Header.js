@@ -3,7 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import SettingsModal from "../ChartSettings/ChartSettings";
 import "./Header.css";
 
-export default function HeaderBar() {
+function HeaderBar() {
   let currentLocation = useLocation();
 
   return (
@@ -14,7 +14,7 @@ export default function HeaderBar() {
             className="nav-link"
             activeClassName="nav-link active"
             exact
-            to="/chart/bar"
+            to="/"
           >
             <i className="fa fa-fw fa-home" />
             <span>Home</span>
@@ -80,3 +80,4 @@ export default function HeaderBar() {
     </header>
   );
 }
+export default HeaderBar;

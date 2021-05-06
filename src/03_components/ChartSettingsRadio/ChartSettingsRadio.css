@@ -1,14 +1,14 @@
-.sort-options {
+.settings__sort--options {
   font-size: 1.4em;
   display: flex;
   flex-direction: column;
 }
 
-.sort-options label {
+.settings__sort--options label {
   display: block;
 }
 
-.sort-options input + span {
+.settings__sort--options input + span {
   margin-right: 15px;
   padding-left: 5px;
 }

@@ -21,17 +21,17 @@
   color: #334d5c;
 }
 
-.BackBtn {
+.settings__back {
   position: relative;
   left: 28%;
 }
 
-.settingsTip {
-  font-size: 10px;
+.settings__tip {
+  font-size: 11px;
   vertical-align: bottom;
 }
 
-.setting__container {
+.settings__container {
   height: auto;
   padding-top: 20px;
 }

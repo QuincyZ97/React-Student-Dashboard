@@ -2,15 +2,17 @@ import "./SelectionScreen.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function SelectionScreen() {
+function SelectionScreen() {
   return (
     <div>
-      <div className="homescreen">
-        <Link className="homescreen__left" to="/chart/bar"></Link>
-        <Link className="homescreen__right" to="/chart/line"></Link>
+      <div className="selection">
+        <Link className="selection__left" to="/chart/bar"></Link>
+        <Link className="selection__right" to="/chart/line"></Link>
       </div>
-      <span className="optionText__left">BAR CHART</span>
-      <span className="optionText__right">LINE CHART</span>
+      <span className="selection__left--text">BAR CHART</span>
+      <span className="selection__right--text">LINE CHART</span>
     </div>
   );
 }
+
+export default SelectionScreen;
