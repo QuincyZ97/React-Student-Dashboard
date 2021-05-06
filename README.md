@@ -82,11 +82,13 @@ Smart table: https://github.com/joaocarmo/react-smart-data-table
 
 Winc Academy: https://www.wincacademy.nl/#
 
+Mock Data: https://www.mockaroo.com/ & https://randomuser.me/
+
 ---
 
 #### Fix
 
-Netlify custom react 404 page render
+Netlify custom 404 page
 
 ---
 
