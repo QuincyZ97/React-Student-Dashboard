@@ -8,3 +8,12 @@
   width: 100%;
 }
 
+/* ============= MEDIA QUERY - LAPTOP ============= */
+@media (max-width: 1024px) {
+  .ExcercisePage__wrapper {
+    height: 92vh;
+  }
+  .ExcercisePage__chartdisplay {
+    padding-left: 15px;
+  }
+}

@@ -9,7 +9,7 @@ function HeaderBar() {
   return (
     <header className="App-header navbar bg-dark">
       <nav className="nav nav-pills">
-        <div className="mainNav">
+        {!currentLocation.pathname.includes("/chart/") && (
           <NavLink
             className="nav-link"
             activeClassName="nav-link active"
@@ -19,43 +19,42 @@ function HeaderBar() {
             <i className="fa fa-fw fa-home" />
             <span>Home</span>
           </NavLink>
+        )}
 
-          <NavLink
-            className="nav-link"
-            activeClassName="nav-link active"
-            to="/students"
-          >
-            <i className="far fa-address-card"></i>
-            <span>Students</span>
-          </NavLink>
+        <NavLink
+          className="nav-link"
+          activeClassName="nav-link active"
+          to="/students"
+        >
+          <i className="far fa-address-card"></i>
+          <span>Students</span>
+        </NavLink>
 
-          <NavLink
-            className="nav-link"
-            activeClassName="nav-link active"
-            to="/exercises"
-          >
-            <i className="fas fa-book"></i>
-            <span>Exercises</span>
-          </NavLink>
+        <NavLink
+          className="nav-link"
+          activeClassName="nav-link active"
+          to="/exercises"
+        >
+          <i className="fas fa-book"></i>
+          <span>Exercises</span>
+        </NavLink>
 
-          <NavLink
-            className="nav-link"
-            activeClassName="nav-link active"
-            to="/overview"
-          >
-            <i className="fas fa-border-all"></i>
-            <span>Overview</span>
-          </NavLink>
-        </div>
+        <NavLink
+          className="nav-link"
+          activeClassName="nav-link active"
+          to="/overview"
+        >
+          <i className="fas fa-border-all"></i>
+          <span>Overview</span>
+        </NavLink>
 
         {currentLocation.pathname.includes("/chart/") ? (
           <SettingsModal />
         ) : (
-          <span class="navbar-text navbar-center">
-            Student Dashboard <i className="fas fa-user-graduate"></i>
+          <span className="navbar-text navbar-logo linear-wipe">
+            <i className="fas fa-user-graduate"></i> Student Dashboard 
           </span>
         )}
-
         {currentLocation.pathname.includes("/chart/") && (
           <div className="chartSwitch">
             <NavLink

@@ -3,8 +3,8 @@
   position: relative;
 }
 
-.mainNav {
-  display: flex;
+.nav-pills {
+  float: left;
 }
 
 .nav-link {
@@ -35,4 +35,43 @@
   position: absolute;
   right: 1%;
   display: flex;
+}
+
+.navbar-logo {
+  border-radius: 25px;
+  padding: 0px 20px;
+  font-weight: bolder;
+  color: white;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: color-change 20s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: white;
+    color: #343a40;
+  }
+  50% {
+    background-color: #007bff;
+    color: white;
+  }
+  100% {
+    background-color: white;
+    color: #343a40;
+  }
+}
+
+/* ============= MEDIA QUERY - LAPTOP ============= */
+@media (max-width: 1150px) {
+  .navbar-logo {
+    float: right;
+    top: 50%;
+    right: 29%;
+    transform: translate(130%, -50%);
+    padding: 0px 24px;
+  }
 }

@@ -67,32 +67,28 @@ function Student() {
           </div>
 
           <div className="student__about">
-            <div className="student__about--info">
-              <span>
-                <i class="fas fa-phone"></i> Phone
+            <span>
+              <i class="fas fa-phone"></i> Phone
+              <span className="student__about--info">
+                {userData[currentId].phone_number}
               </span>
-              <span>
-                <i class="fas fa-birthday-cake"></i> Age
-              </span>
-              <span>
-                <i class="fas fa-envelope"></i> Email
-              </span>
-              <span>
-                <i class="fas fa-thermometer-three-quarters"></i> Average
-                difficulty
-              </span>
-              <span>
-                <i class="fas fa-thumbs-up"></i> Average Rating
-              </span>
-            </div>
-
-            <div className="student__about--data">
-              <span>{userData[currentId].phone_number}</span>
-              <span>{userData[currentId].age}</span>
-              <span>{userData[currentId].email}</span>
-              <span>{diffAverage.toFixed(1)} / 5</span>
-              <span>{rateAverage.toFixed(1)} / 5</span>
-            </div>
+            </span>
+            <span>
+              <i class="fas fa-birthday-cake"></i> Age
+              <span className="student__about--info">{userData[currentId].age}</span>
+            </span>
+            <span>
+              <i class="fas fa-envelope"></i> Email
+              <span className="student__about--info">{userData[currentId].email}</span>
+            </span>
+            <span>
+              <i class="fas fa-thermometer-three-quarters"></i> Avg. difficulty
+              <span className="student__about--info">{diffAverage.toFixed(1)} / 5</span>
+            </span>
+            <span>
+              <i class="fas fa-thumbs-up"></i> Avg. Rating
+              <span className="student__about--info">{rateAverage.toFixed(1)} / 5</span>
+            </span>
           </div>
         </div>
       </div>

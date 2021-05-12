@@ -1,6 +1,5 @@
 .selection {
   display: flex;
-  position: relative;
   height: 94vh;
   background-color: #646363;
 }
@@ -12,7 +11,7 @@
   left: 12%;
   color: #343a40;
   text-shadow: 3px 3px 4px white;
-  font-size: 5em;
+  font-size: 4vw;
 }
 
 .selection__right--text {
@@ -22,7 +21,7 @@
   right: 12%;
   color: #343a40;
   text-shadow: 3px 3px 4px white;
-  font-size: 5em;
+  font-size: 4vw;
 }
 
 .selection__left {
@@ -60,4 +59,11 @@
   filter: blur(0px);
   background-size: 103% 103%;
   transition: 0.3s ease-in-out;
+}
+
+/* ============= MEDIA QUERY - LAPTOP ============= */
+@media (max-width: 1024px) {
+  .selection {
+  height: 92.7vh;
+}
 }

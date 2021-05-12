@@ -18,7 +18,7 @@ function NotFound() {
     return <Redirect to="/" />;
   } else {
     return (
-      <div>
+      <div className="notFound_wrapper">
         <div className="hit-the-floor">404</div>
         <div className="notFound__image">
           <img src={errorImg} alt="something went wrong :(" />

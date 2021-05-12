@@ -12,3 +12,11 @@
 .rsdt.rsdt-column-toggles {
   margin-bottom: 10px;
 }
+
+/* ============= MEDIA QUERY - LAPTOP ============= */
+
+@media (max-width: 1024px) {
+  .overview__container {
+  height: 92vh;
+}
+}

@@ -12,21 +12,19 @@ body {
 .NothingSelected {
   position: absolute;
   top: 10%;
-  left: 27%;
+  left: 23%;
 }
 
 .NothingSelected span {
   font-weight: 600;
   color: #343a40;
   text-shadow: 3px 3px 4px white;
-  font-size: 5em;
+  font-size: 5vw;
 }
 
 .NothingSelected i {
-  position: relative;
-  font-size: 5em;
+  font-size: 5vw;
   display: block;
   text-align: center;
   color: #007bff;
-  padding-bottom: 200px;
 }

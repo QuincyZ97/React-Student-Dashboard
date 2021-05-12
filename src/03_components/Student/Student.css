@@ -4,21 +4,21 @@
   width: 100%;
 }
 
-.student__wrapper{
+.student__wrapper {
   width: 34%;
 }
 
-.table__wrapper{
-  width: 53% !important;
+.table__wrapper {
+  width: 53vw !important;
 }
 
 .student__container {
   position: relative;
-  display: flexbox;
-  height: 600px;
-  width: 500px;
+  height: 700px;
+  width: 80%;
+  margin: 20px;
   top: 15%;
-  left: 12%;
+  left: 5%;
   -webkit-box-shadow: 5px 5px 15px 3px #000000;
   box-shadow: 5px 5px 15px 3px #000000;
   border-radius: 40px;
@@ -52,36 +52,71 @@
   font-weight: bold;
 }
 
+.student__about {
+  position: absolute;
+  color: #006ee4;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 30px;
+  width: 305px;
+  top: 50%;
+  left: 20%;
+}
+
 .student__about span {
   display: block;
 }
 
-.student__about {
-  display: flex;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  margin-bottom: 15%;
-}
-
 .student__about--info {
   color: #343a40;
-  text-align: right;
-  border-right: 2px solid #343a40;
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 30px;
-  width: 35%;
-  padding-right: 15px;
+  border-bottom: 1px solid #616a74;
 }
 
-.student__about--data {
-  color: #343a40;
-  text-align: left;
-  width: 65%;
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 30px;
-  padding-left: 35px;
+/* ============= MEDIA QUERY - LAPTOP ============= */
+@media (max-width: 1150px) {
+  .StudentPage__wrapper {
+    height: 92vh;
+  }
+  .student__container {
+    top: 0%;
+    height: 650px;
+  }
+
+  .student__image {
+    left: 25%;
+    top: 60%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .student__about {
+    text-align: left;
+    left: 5%;
+    top: 45%;
+  }
 }
 
+/* HOTFIX FOR STUDENT PROFILE */
+@media (max-height: 768px) {
+  .StudentPage__wrapper {
+    height: 92vh;
+  }
+  .student__container {
+    top: 0%;
+    height: 650px;
+  }
+
+  .student__image {
+    left: 25%;
+    top: 60%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .student__about {
+    text-align: left;
+    left: 5%;
+    top: 45%;
+  }
+}
